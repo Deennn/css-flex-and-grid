@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+/* font-family: 'Lexend Deca', sans-serif; */
+/* font-family: 'Big Shoulders Display', cursive; */
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+
+body {
+    font-size: 15px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.outer-container {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  
+}
+.container {
+   
+
+    /* margin: 15vh auto; */
+    /* padding: 5rem; */
+
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.same {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.same .ball {
+    /* height: 50px;
+    width: 50px; */
+    /* border-radius: 50%;
+    background-color: #00000050 */
+}
+
+.same .header {
+    padding: 2rem 0;
+    color: hsl(0, 0%, 95%);
+}
+
+
+
+
+
+.btn {
+    padding: 10px 0px;
+    border-radius: 16px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 100px;
+    background-color: hsl(0, 0%, 95%);
+    /* margin: 4px 0px; */
+}
+
+/* Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%) */
+.yellow {
+    height: 50vh;
+    width: 30vh;
+    background: hsl(31, 77%, 52%);
+}
+
+.blue {
+    height: 50vh;
+    width: 30vh;
+    background:  hsl(184, 100%, 22%);
+}
+
+.green {
+    height: 50vh;
+    width: 30vh;
+    background: hsl(179, 100%, 13%);
+}
